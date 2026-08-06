@@ -16,12 +16,42 @@
 
 ### Convergent Thinking
 #### Impact VS Effort Matrix
+![Impact VS Effort Matrix](./images/matrix.png)
+
 #### Peer SWOT Analysis
+![SWOT Analysis for Art Resources Website](./images/SWOT1.png)
+![SWOT Analysis for AI or Not Guesser](./images/SWOT2.png)
+
 #### Self Reflection 
-Write a one-paragraph reflection based on your Impact/Effort Matrix and Peer SWOT Analysis. Following this, select your final idea and make note of it.
+This peer SWOT analysis has provided me insightful opinions into my websites and their potential strengths and weaknesses when implemented. Based on the feedback I've received, it seems that the 'AI or Not Guesser' had a strong impact relevant to modern technology, however there were many flaws in it including its difficult implementation and its ineffectiveness and indurability as a helpful tool as AI advances. This insight has now allowed me to narrow my idea down to the 'Art Resources Website', which seems to be the safer option due to its more longer lasting impact, although it is for a more specific audience, as well as its simpler design. For this project, I will be going through with this 'Art Resources Website', especially considering the time constraints and my current limited HTML ability while keeping in consideration the weaknesses and threats they have outlined for this idea.
+
+**Final Project Idea:** Art Resources Website
 
 ### Requirements Outline
-Outline functional and non-functional requirements for your website / app.
+Your web app should:
+
+Respond clearly to the theme "Influence"
+
+Aim to have a positive social impact (local, national or global)
+
+Be interactive in some way (form, buttons, quiz, media, etc.)
+
+Include a clear message or call to action
+
+Use multimedia elements (e.g. text, images, audio, video, animation)
+
+Be designed with accessibility and user experience in mind
+
+#### Functional Requirements
+1. 
+
+#### Non-Functional Requirements
+1. **Performance**: 
+2. **Usability / Accessibility**:
+3. **Reliability**:
+4. **Security**:
+5. **Maintainability**:
+6. **Impactful**:
 
 ## Researching and Planning
 ### Explore Existing Ideas
