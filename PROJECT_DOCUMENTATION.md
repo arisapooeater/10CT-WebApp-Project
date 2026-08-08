@@ -46,12 +46,13 @@ Be designed with accessibility and user experience in mind
 1. 
 
 #### Non-Functional Requirements
-1. **Performance**: 
-2. **Usability / Accessibility**:
-3. **Reliability**:
-4. **Security**:
-5. **Maintainability**:
-6. **Impactful**:
+1. **Performance**: Pages should load within 1-3 seconds
+2. t%4e
+3. **Usability / Accessibility**: UI should be accessible to a wide range of audiences through the use of multimedia elements including audio and graphics. User experiences should also be immersive and highly intuitive, where the user can click buttons, scroll and interact with at least one unique function.
+4. **Reliability**:
+5. **Security**: Program should practice proper data minimisation, encrypt any sensitive user information (eg. username/password) if possible, with basic user input validation where needed.
+6. **Maintainability**:
+7. **Impactful**:
 
 ## Researching and Planning
 ### Explore Existing Ideas
