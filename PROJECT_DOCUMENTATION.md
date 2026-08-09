@@ -27,19 +27,12 @@ This peer SWOT analysis has provided me insightful opinions into my websites and
 
 **Final Project Idea:** Art Resources Website
 
-### Requirements Outline
-Your web app should:
-
-Respond clearly to the theme "Influence"
-
-Aim to have a positive social impact (local, national or global)
-
-
-Include a clear message or call to action
-
-
 #### Functional Requirements
-1. 
+1. App Catalogue: User can filter through and find art applications and their ratings, advantages/disadvantages based on filters like pricing, application use etc.
+2. Useful Websites Page: Lists a number of websites to use for references and art drills to advance art skills by describing who they are best for and what they do.
+3. Events / Communities: Outlines annual art events within the art community, links to informational sites/communities.
+4. Self-Promotion Guide: Gives recommendations to what social media platforms to promote your art on, how to go about it and lists some artist accounts who provide better more detailed tips. If within time constraints, have an interactive spinner of video ideas, current trends/audios to try out.
+
 
 #### Non-Functional Requirements
 1. **Performance**: Pages should load within 1-3 seconds and should perform smoothly, responding to user inputs without a noticeable lag or inaccurate responses (eg. a button leading to the wrong page). Page transitions should assist in making a streamlined and cohesive user experience.
