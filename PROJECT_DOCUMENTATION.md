@@ -34,25 +34,20 @@ Respond clearly to the theme "Influence"
 
 Aim to have a positive social impact (local, national or global)
 
-Be interactive in some way (form, buttons, quiz, media, etc.)
 
 Include a clear message or call to action
 
-Use multimedia elements (e.g. text, images, audio, video, animation)
-
-Be designed with accessibility and user experience in mind
 
 #### Functional Requirements
 1. 
 
 #### Non-Functional Requirements
-1. **Performance**: Pages should load within 1-3 seconds
-2. t%4e
-3. **Usability / Accessibility**: UI should be accessible to a wide range of audiences through the use of multimedia elements including audio and graphics. User experiences should also be immersive and highly intuitive, where the user can click buttons, scroll and interact with at least one unique function.
-4. **Reliability**:
-5. **Security**: Program should practice proper data minimisation, encrypt any sensitive user information (eg. username/password) if possible, with basic user input validation where needed.
-6. **Maintainability**:
-7. **Impactful**:
+1. **Performance**: Pages should load within 1-3 seconds and should perform smoothly, responding to user inputs without a noticeable lag or inaccurate responses (eg. a button leading to the wrong page). Page transitions should assist in making a streamlined and cohesive user experience.
+2. **Usability / Accessibility**: UI should be accessible to a wide range of abilities through the use of multimedia elements including audio and graphics. User experiences should also be immersive and highly intuitive, where the user can click buttons, scroll and interact with at least one unique interactive function.
+3. **Reliability**: Content in web app should be created through comprehensive research and consideration of its social impact. Any data and ratings included of apps, websites and other resources should be accurate and without bias. It should additionally be made clear to users when content was last updated, how any conclusions were reached and should include a disclaimer if any recommendations do not apply to everyone.
+4. **Security**: Program should practice proper data minimisation, encrypt any sensitive user information (eg. username/password) if possible, with basic user input validation where needed.
+5. **Maintainability**: Code should be highly structured and broken into smaller components and functions with clear indicative names to promote easy updating and future maintenance. Regular and varied testing should also occur early on throughout development to prevent problematic errors and issues from arising later on during maintenance.
+6. **Impactful**: Web app should have a clear positive impact in assisting artists and their creative abilities through effective content (eg. give wide range of options, recommendations, avoid catering to a specific artstyle)
 
 ## Researching and Planning
 ### Explore Existing Ideas
