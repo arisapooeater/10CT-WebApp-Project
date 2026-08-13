@@ -44,10 +44,17 @@ This peer SWOT analysis has provided me insightful opinions into my websites and
 
 ## Researching and Planning
 ### Explore Existing Ideas
+1. Art Rocket (by Clip Studio Paint)(https://www.clipstudio.net/how-to-draw/category/digital-art)
+
+2. Tech Radar (https://www.techradar.com/pro/best-drawing-apps)
+
+3. Creative Bloq (https://www.creativebloq.com/tag/3d-art-inspiration)
+
 - Research information using data from at least 2-3 reputable sources.
 - Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
 
 ### Secondary Research
+1. Google Play Store
 - Research information using data from at least 2-3 reputable sources.
 - Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
   
