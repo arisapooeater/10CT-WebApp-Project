@@ -28,10 +28,10 @@ This peer SWOT analysis has provided me insightful opinions into my websites and
 **Final Project Idea:** Art Resources Website
 
 #### Functional Requirements
-1. App Catalogue: User can filter through and find art applications and their ratings, advantages/disadvantages based on filters like pricing, application use etc.
-2. Useful Websites Page: Lists a number of websites to use for references and art drills to advance art skills by describing who they are best for and what they do.
-3. Events / Communities: Outlines annual art events within the art community, links to informational sites/communities.
-4. Self-Promotion Guide: Gives recommendations to what social media platforms to promote your art on, how to go about it and lists some artist accounts who provide better more detailed tips. If within time constraints, have an interactive spinner of video ideas, current trends/audios to try out.
+1. **App Catalogue**: User can filter through and find art applications and their ratings, advantages/disadvantages based on filters like pricing, application use etc.
+2. **Useful Websites Page**: Lists a number of websites to use for references and art drills to advance art skills by describing who they are best for and what they do.
+3. **Events / Communities**: Outlines annual art events within the art community, links to informational sites/communities.
+4. **Self-Promotion Guide**: Gives recommendations to what social media platforms to promote your art on, how to go about it and lists some artist accounts who provide better more detailed tips. If within time constraints, have an interactive spinner of video ideas, current trends/audios to try out.
 
 
 #### Non-Functional Requirements
@@ -59,6 +59,9 @@ This peer SWOT analysis has provided me insightful opinions into my websites and
 - Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
   
 ### Primary Research
+**Interview #1: Rigia**
+
+**Interview #2: Kez**
 - Conduct primary research into your topic. Consider your target market and gather information through surveys, questionnaires and/or interviews. Make sure to include questions to gather quantitative and qualitative data.
 - Organise your data (e.g. quantitative into spreadsheet / qualitative into .md file)
 - Evaluate your findings and consider how it impacts your project moving forward.
@@ -72,6 +75,17 @@ Create a prototype of at least your home page and one another page from your web
 ### Development Process Documentation
 Document the whole development process (including all of the above) in a Markdown (.md) file.
 
+| Weeks | Documentation | Screenshots |
+|-|-|-|
+| Week 2 | | |
+| Week 3 | | |
+| Week 4 | | |
+| Week 5 | | | 
+| Week 6 | | |
+| Week 7 | | |
+| Week 8 | | |
+| Week 9 | | |
+| Week 10 | | | 
 ## Testing and Evaluating
 ### Peer Evaluation
 **Evaluate your own project and that of your peers using predetermined criteria.**
