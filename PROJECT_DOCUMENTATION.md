@@ -44,21 +44,30 @@ This peer SWOT analysis has provided me insightful opinions into my websites and
 
 ## Researching and Planning
 ### Explore Existing Ideas
-1. Art Rocket (by Clip Studio Paint)(https://www.clipstudio.net/how-to-draw/category/digital-art)
 
-2. Tech Radar (https://www.techradar.com/pro/best-drawing-apps)
+| Existing Idea | Plus | Minus | Implication |
+|-|-|-|-|
+| 1. Art Rocket (by Clip Studio Paint)(https://www.clipstudio.net/how-to-draw/category/digital-art)| Includes a wide variety of tutorials from different artists, helping users of a variety of skill levels learn and extend their art abilities, as well as support the artists creating the tutorials. | Website structure is a bit cluttered due to lots of text without borders, and is also a bit plain in terms of aesthetics. |
+|2. Tech Radar (https://www.techradar.com/pro/best-drawing-apps)| Clear listing of advantages and disadvantages of art software for both beginners and professional artists. Very clear and informational, guides artists on choosing the most personalised application for them. | Lots of scrolling and reading, although that makes it very informational, it undermines its interactivity. | |
+|3. Creative Bloq (https://www.creativebloq.com/tag/3d-art-inspiration)| Acts as a gallery of recent creative works in the industry that can inspire users in their art. Rather than directly teaching tips or providing resources, Creative Bloq fuels the imagination and creativity of aspiring artists. It also has a strength in that it caters for a variety of media and artistic forms, such as game design, animation, 3D etc. | It's main weakness is the website's overabundance of ads and unsuited colour palette (orange and grey). They make the user interface less appealing and useable. | |
 
-3. Creative Bloq (https://www.creativebloq.com/tag/3d-art-inspiration)
 
-- Research information using data from at least 2-3 reputable sources.
-- Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
+Research at least three websites / web applications which are used to influence people. Evaluate each with a PMI (Plus, Minus, Implications) table.
 
 ### Secondary Research
-1. Google Play Store
+
+
+https://www.researchgate.net/publication/397175292_Use_of_Digital_Technologies_in_the_Process_of_Teaching_Art_Education_to_Students_A_Mixed_Methods_Study (digital tools for art is important and help create further access and extension of creative media)
+https://www.oii.ox.ac.uk/art-algorithms-new-exhibit-highlights-differences-between-algorithmic-and-human-curation/ (the algorithm limits what we see, black box (makes artists less visible on social media + some art tools are harder to find))
 - Research information using data from at least 2-3 reputable sources.
 - Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
   
 ### Primary Research
+**Survey Qualitative Results (Google Form: https://forms.gle/wXYreeE5BL81M3Rt6)**
+
+**Survey Quantitative Results (Spreadsheet: )**
+
+
 **Interview #1: Rigia**
 
 **Interview #2: Kez**
