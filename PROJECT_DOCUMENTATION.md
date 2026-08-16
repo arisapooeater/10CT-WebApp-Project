@@ -16,11 +16,11 @@
 
 ### Convergent Thinking
 #### Impact VS Effort Matrix
-![Impact VS Effort Matrix](./images/matrix.png)
+<img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="1000" height="500">
 
 #### Peer SWOT Analysis
-![SWOT Analysis for Art Resources Website](./images/SWOT1.png)
-![SWOT Analysis for AI or Not Guesser](./images/SWOT2.png)
+<img src="./images/SWOT1.png" alt="SWOT Analysis for Art Resources Website" width="500" height="400"> <img src="./images/SWOT2.png" alt="SWOT Analysis for AI or Not Guesser" width="500" height="400">
+
 
 #### Self Reflection 
 This peer SWOT analysis has provided me insightful opinions into my websites and their potential strengths and weaknesses when implemented. Based on the feedback I've received, it seems that the 'AI or Not Guesser' had a strong impact relevant to modern technology, however there were many flaws in it including its difficult implementation and its ineffectiveness and indurability as a helpful tool as AI advances. This insight has now allowed me to narrow my idea down to the 'Art Resources Website', which seems to be the safer option due to its more longer lasting impact, although it is for a more specific audience, as well as its simpler design. For this project, I will be going through with this 'Art Resources Website', especially considering the time constraints and my current limited HTML ability while keeping in consideration the weaknesses and threats they have outlined for this idea.
@@ -101,9 +101,13 @@ https://www.oii.ox.ac.uk/art-algorithms-new-exhibit-highlights-differences-betwe
 Generate and evaluate alternative designs using website wireframes and webpage storyboards. You may do this on paper or using Adobe XD / Figma.
 | | Website Wireframe | Webpage storyboard |
 |-|-|-|
-| Design 1 (visual, structured) | ![Design 1 Wireframe](./images/wireframe1.png) | |
-| Design 2 (game-like, interactive) | ![Design 2 WIreframe](./images/wireframe2.png) | | 
-| Design 3 (similar to design 1, more standard) | ![Design 3 Wireframe](./images/wireframe3.png) | | 
+| Design 1 (visual, structured) | <img src="./images/wireframe1.png" alt="Design 1 Wireframe" width="500" height="400"> | |
+| Design 2 (game-like, interactive) | <img src="./images/wireframe2.png" alt="Design 2 Wireframe" width="500" height="800"> | | 
+| Design 3 (similar to design 1, more standard) | <img src="./images/wireframe3.png" alt="Design 3 Wireframe" width="500" height="400"> | 
+
+
+
+
 
 ### Prototype
 Create a prototype of at least your home page and one another page from your website using Figma, Adobe XD or a web content management system (CMS).
@@ -111,12 +115,13 @@ Create a prototype of at least your home page and one another page from your web
 ## Producing and Implementing
 ### Development Process Documentation
 Document the whole development process (including all of the above) in a Markdown (.md) file.
+- Sophisticated and insightful evaluation throughout the project, consistently reflecting on progress, project requirements, and peer/user feedback, with extensive analysis of required improvements.
 
 | Weeks | Documentation | Screenshots |
 |-|-|-|
-| Week 2 | | |
-| Week 3 | | |
-| Week 4 | | |
+| Week 2 | |![Week 2 Commits](./images/wk2commits.png) <img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="1000" height="500"> ![Week 2 Commits .md code](./images/wk2commits1.png) |
+| Week 3 | |![Week 3 Commits](./images/wk3commits.png) ![Week 3 Commits .md code](./images/wk3commits1.png) ![Impact VS Effort Matrix](./images/matrix.png) ![SWOT Analysis for Art Resources Website](./images/SWOT1.png) ![SWOT Analysis for AI or Not Guesser](./images/SWOT2.png)|
+| Week 4 | |![Week 4 Commits](./images/wk4commits.png) ![Functional/Non-Functional Requirements + PMI Table Screenshot](./images/wk4commits1.png) ![Primary Research Survey Results Screenshot](./images/wk4commits2.png)|
 | Week 5 | | | 
 | Week 6 | | |
 | Week 7 | | |
