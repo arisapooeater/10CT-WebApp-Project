@@ -61,10 +61,34 @@ https://www.oii.ox.ac.uk/art-algorithms-new-exhibit-highlights-differences-betwe
 - Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
   
 ### Primary Research
-**Survey Qualitative Results (Google Form: https://forms.gle/wXYreeE5BL81M3Rt6)**
+**Survey Quantitative Results (Google Form: https://forms.gle/wXYreeE5BL81M3Rt6)**
 
-**Survey Quantitative Results (Spreadsheet: )**
+![16/08 Google Form Spreadsheet Screenshot](./images/primarysheet.png)
+(https://docs.google.com/spreadsheets/d/1Q_IeDcmdabbyJZ9C2-ip9PQsSzEKD-W6XaLb7ekaTR4/edit?usp=sharing)
 
+**Survey Qualitative Results (same Google Form + Face-to-face interviews***
+
+|Google Form Question | Responses | 
+|-|-|
+|**What kind of art apps/websites/tools do you often look for?**| "Something that enables animation" |
+| |"Usually croquis sites and cool creative tools like glitterfying art etc."|
+| |"pinterest"|
+| |"easily accessible and one with many varieties"|
+| |"Google with hopes and prayers, if I can't find what I need I take the picture myself, if I can't take the picture myself I cry myself to sleep"|
+| |"I make it a very strong point to NOT use references that are AI generated. I mostly look for pose/composition/character design inspo, but sometimes ill look for irl pics of people for my uni assignments (they make us draw realistic) and very rarely color palettes"|
+| |"Pallets" *(probably was referring to colour palettes)*|
+| |"I usually watch videos on youtube/insta to look at tips, and pinterest for reference photos of characters im drawing/poses."|
+|**Describe how you usually find good resources and art assistive sites**|"I dont use a lot of references, but i usually only use pinterest"|
+| |"When it pops up in my feed on social media, or if a friend tells me about it"|
+| |"hours of looking"|
+| |"look for other peoples recommendations"|
+| |"I go on google, and once I find a picture close enough from what I need, I click on it and look at similar pictures below until i find the perfect one"|
+| |"I've found a good few through my friends and mutuals, sometimes through reels of people sharing resources. On my own, it's a bit difficult to find resources because it's gotten harder to separate AI generated content from real resources."|
+| |"Pinterest or google"|
+| |"I dont actively search for them cuz its too hard… (HI ARISAA)"|
+
+
+`*Note: I posted this Google Forms on my public art account and to people I know in our grade who have an interest in art`
 
 **Interview #1: Rigia**
 
@@ -75,6 +99,12 @@ https://www.oii.ox.ac.uk/art-algorithms-new-exhibit-highlights-differences-betwe
 
 ### UI/UX Design
 Generate and evaluate alternative designs using website wireframes and webpage storyboards. You may do this on paper or using Adobe XD / Figma.
+| | Website Wireframe | Webpage storyboard |
+|-|-|-|
+| Design 1 (visual, structured) | ![Design 1 Wireframe](./images/wireframe1.png) | |
+| Design 2 (game-like, interactive) | ![Design 2 WIreframe](./images/wireframe2.png) | | 
+| Design 3 (similar to design 1, more standard) | ![Design 3 Wireframe](./images/wireframe3.png) | | 
+
 ### Prototype
 Create a prototype of at least your home page and one another page from your website using Figma, Adobe XD or a web content management system (CMS).
 
