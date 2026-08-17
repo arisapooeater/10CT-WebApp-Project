@@ -119,18 +119,34 @@ Adobe XD Link: https://xd.adobe.com/view/6b1c48d0-c57f-4434-96ea-42c4076293c4-3e
 ### Development Process Documentation
 Document the whole development process (including all of the above) in a Markdown (.md) file.
 - Sophisticated and insightful evaluation throughout the project, consistently reflecting on progress, project requirements, and peer/user feedback, with extensive analysis of required improvements.
+#### Week 2
+- progress: did diverge mind map and started 6 big ideas
+- project requirements: need to consider which idea is best considering the time constraints and the key idea of influence
+- required improvements: I need to focus more in class and be more productive so I can save extra time in the development and testing stages later on
+- next goals: finish off 6 big ideas quickly and finish off up until functional requiremnts
+<img src="./images/wk2commits.png" alt="Week 2 Commits" width="1000" height="500">
+<img src="./images/wk2commits1.png" alt="Week 2 Commits .MD code" width="1000 height="500">
+<img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="1000" height="500">
 
-| Weeks | Documentation | Screenshots |
-|-|-|-|
-| Week 2 | |![Week 2 Commits](./images/wk2commits.png) <img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="1000" height="500"> ![Week 2 Commits .md code](./images/wk2commits1.png) |
-| Week 3 | |![Week 3 Commits](./images/wk3commits.png) ![Week 3 Commits .md code](./images/wk3commits1.png) ![Impact VS Effort Matrix](./images/matrix.png) ![SWOT Analysis for Art Resources Website](./images/SWOT1.png) ![SWOT Analysis for AI or Not Guesser](./images/SWOT2.png)|
-| Week 4 | |![Week 4 Commits](./images/wk4commits.png) ![Functional/Non-Functional Requirements + PMI Table Screenshot](./images/wk4commits1.png) ![Primary Research Survey Results Screenshot](./images/wk4commits2.png)|
-| Week 5 | | | 
-| Week 6 | | |
-| Week 7 | | |
-| Week 8 | | |
-| Week 9 | | |
-| Week 10 | | | 
+#### Week 3
+<img src="./images/wk3commits.png" alt="Week 3 Commits" width="1000" height="500">
+<img src="./images/wk3commits1.png" alt="Week 3 Commits" width="1000" height="500">
+<img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="1000" height="500">
+<img src="./images/SWOT1.png" alt="SWOT Analysis for Art Resources Website" width="1000" height="500">
+<img src="./images/SWOT2.png" alt="SWOT Analysis for AI or Not Guesser" width="1000" height="500">
+
+#### Week 4
+<img src="./images/wk4commits.png" alt="Week 4 Commits" width="1000" height="500">
+<img src="./images/wk4commits1.png" alt="Functional/Non-Functional Requirements + PMI Table Screenshot" width="1000" height="500">
+<img src="./images/wk4commits2.png" alt="Primary Research Survey Results Screenshot" width="1000" height="500">
+
+#### Week 5
+#### Week 6
+#### Week 7
+#### Week 8
+#### Week 9
+#### Week 10 
+
 ## Testing and Evaluating
 ### Peer Evaluation
 **Evaluate your own project and that of your peers using predetermined criteria.**
