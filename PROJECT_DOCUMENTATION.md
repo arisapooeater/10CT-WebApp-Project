@@ -111,34 +111,45 @@ Generate and evaluate alternative designs using website wireframes and webpage s
 
 ### Prototype
 
-Adobe XD Link: https://xd.adobe.com/view/6b1c48d0-c57f-4434-96ea-42c4076293c4-3e4f/
+**Adobe XD Link:** https://xd.adobe.com/view/6b1c48d0-c57f-4434-96ea-42c4076293c4-3e4f/
 
-
+<img src="./images/prototype.png" alt="Adobe XD Prototype Home Page" width="500" height="350">
+<img src="./images/prototype1.png" alt="Adobe XD Prototype App/Website Catalogue Page" width="500" height="350">
 
 ## Producing and Implementing
 ### Development Process Documentation
 Document the whole development process (including all of the above) in a Markdown (.md) file.
 - Sophisticated and insightful evaluation throughout the project, consistently reflecting on progress, project requirements, and peer/user feedback, with extensive analysis of required improvements.
 #### Week 2
-- progress: did diverge mind map and started 6 big ideas
-- project requirements: need to consider which idea is best considering the time constraints and the key idea of influence
-- required improvements: I need to focus more in class and be more productive so I can save extra time in the development and testing stages later on
-- next goals: finish off 6 big ideas quickly and finish off up until functional requiremnts
-<img src="./images/wk2commits.png" alt="Week 2 Commits" width="1000" height="500">
-<img src="./images/wk2commits1.png" alt="Week 2 Commits .MD code" width="1000 height="500">
-<img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="1000" height="500">
+This week has had minimal progress due to being sick during our lesson days, however I have managed to complete the diverge mind map and start the 6 big ideas table. Moving forward with this project, I will need to put further consideration into which of my chosen ideas I should go forward with given the time constraints, my HTML ability and its suitability to this project's key idea of influence. Reflecting on the lesson I was present this week, I need to focus much more in class and maximise my productivity so I can put extra time into the development and testing stages later on, as I suspect I will struggle when coding in HTML/CSS and Javascript. Overall, although progress was slow this week, I will aim to finish off the 6 big ideas table quickly and finish at least up until the SWOT diagrams in order to start developing my web application by Week 5 (as Mr Scott recommended).
+
+<img src="./images/wk2commits.png" alt="Week 2 Commits" width="500" height="350">
+<img src="./images/diverge_mindmap.png" alt="Diverge Mind Map" width="500" height="350">
+<img src="./images/wk2commits1.png" alt="Week 2 Commits .MD code" width="1000 height="400">
 
 #### Week 3
-<img src="./images/wk3commits.png" alt="Week 3 Commits" width="1000" height="500">
+- progress: finished impact vs effort matrix, SWOT analysis and have drafted the survey and will release early next week
+- reflection: defniitely more productive than last week, and I'm getting more work done in class which is good, although I still get a little distracted, I make up for it by doing some of this at home. i want to make sure my theory is very comprehensive so i know where to start when i begin coding.
+- peer feedback:my peer's SWOT feedback provided valuable insight into the strengths I should lean into for this project, such as maximising my use of information and graphics from online, as well as some possible threats to look out for, such as accidnetally plagiarising similar art resource websites. 
+- project requirements:  i think the art resources idea I have chosen was the best out of my options as it aligned with teh project requirements due to having a clear positive influence for a clear audience, which was for artists. I also think this idea is the easiest to create with HTML, which means I can have more time for enhancing its visual/interactive and accessibility elements. I'm thinking of adding a text to speech button if I can find out how to do it.
+- required improvements: Next week I need to work more diligently so I can finish all the theory work for this project before Week 5, which is when we plan to start developing the website. This probably means I will also need to invest time into brainstorming the design aspects of the project at home, such as the storyboards and wireframes. i also need to release my survey to my public art account to get data from real artists and as to not skew data toward any biases (which may happen if I send to just friends)
+
+
+<img src="./images/wk3commits.png" alt="Week 3 Commits" width="500" height="350">
+<img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="500" height="350">
+<img src="./images/SWOT1.png" alt="SWOT Analysis for Art Resources Website" width="500" height="350">
+<img src="./images/SWOT2.png" alt="SWOT Analysis for AI or Not Guesser" width="500" height="350">
 <img src="./images/wk3commits1.png" alt="Week 3 Commits" width="1000" height="500">
-<img src="./images/matrix.png" alt="Impact VS Effort Matrix" width="1000" height="500">
-<img src="./images/SWOT1.png" alt="SWOT Analysis for Art Resources Website" width="1000" height="500">
-<img src="./images/SWOT2.png" alt="SWOT Analysis for AI or Not Guesser" width="1000" height="500">
 
 #### Week 4
-<img src="./images/wk4commits.png" alt="Week 4 Commits" width="1000" height="500">
-<img src="./images/wk4commits1.png" alt="Functional/Non-Functional Requirements + PMI Table Screenshot" width="1000" height="500">
-<img src="./images/wk4commits2.png" alt="Primary Research Survey Results Screenshot" width="1000" height="500">
+- progress: wrote functional/nonfunctional requirements + existing PMI table collected survey results and put them in .md and sheets + dWireframes (basically everything except secondary research section) + prototype
+- project requirements: some of my wireframes are not meeting the functional requirements ive outlined (as some of them arent a proper filter catalogue design) and i intend to refine the ideas. based on the survey results I've received the feedback for my project proposal has been positive and most people would find my website relatively or very useful which is relieving. the survey has also brought my awareness to which key artist struggles to focus on when looking for resources/websites/ apps to feature in my web app as many artists who responded to my survey had a very similar pattern of interests
+- required improvements: i ignored secondary research for a whole week cus i didnt know what it meant and we have been having substitute teachers a lot. however, i should be more proactive and just message mr scott if i need help, and i think im using it as an excuseto not do it .
+- next week goal: finish secondary research and start coding the base of the program 
+
+<img src="./images/wk4commits2.png" alt="Primary Research Survey Results Screenshot" width="500" height="400">
+<img src="./images/wk4commits1.png" alt="Functional/Non-Functional Requirements + PMI Table Screenshot" width="500" height="300">
+<img src="./images/wk4commits.png" alt="Week 4 Commits" width="500" height="600">
 
 #### Week 5
 #### Week 6
