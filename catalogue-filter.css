@@ -1,0 +1,42 @@
+.products {
+    margin: 4rem auto;
+}
+
+label, select, option {
+    font-size: 1.25rem;
+}
+
+select, option {
+    padding: 0 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 2rem
+}
+
+.products .spacing {
+    margin: 0 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 0;
+}

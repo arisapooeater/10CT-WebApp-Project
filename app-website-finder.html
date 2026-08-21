@@ -6,14 +6,41 @@
       content="width=device-width,
       initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalogue-filter.css">
     <script src="script.js" defer></script>
     <script src="./js-files/script.js"></script> 
-    <title>Website Title!</title>
+    <title>KRAFTY</title>
+    <link rel="icon" href="./HTML-graphics/substitutefornow.jpg">
   </head>
   <body>
     <div id="nav-placeholder"></div>
     <div class="bg"></div>
-
     <h1>App & Website Finder</h1>
+
+    <!-- App/Websites Filters + Grid -->
+    <section class="Apps/Websites Container" id="product">
+        <div class="filters">
+            <label for="categoryFilter">Price:</label>
+            <select id="categoryFilter">
+              <option value="all">All</option>
+              <option value="free">Free</option>
+              <option value="one-time-payment">One-time payment</option>
+              <option value="subscription">Subscription-based</option>
+            </select>
+        </div>
+
+        <div class="filters"> 
+          <!--Figure out how to do checkbox multiple selection-->
+        </div>
+        
+        <div class="grid">
+          <div class="card" data-id="1">
+            <img src="./HTML-graphics/procreate-logo.png" alt="Procreate" loading="lazy">
+            <h3>Procreate</h3>
+            <p>Description</p>
+            <a href="https://procreate.com/">Check it out!</a>
+          </div>
+        </div>
+    </section>
   </body>
 </html>
