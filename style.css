@@ -27,6 +27,17 @@ h1 {
   text-transform: uppercase;
 }
 
+.button {
+  text-decoration: none;
+  text-align: center;
+  background-color: #FA5F55;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 6px 2px 6px 2px;
+  border: 5px 5px 5px 5px;
+  border-radius: 25px;
+}
+
 .nav {
   height: 3.7rem;
   display: flex;
@@ -39,15 +50,15 @@ h1 {
 }
 
 .nav__logo {
-  margin: 0;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .nav__logo img {
-    width: 50px;
-    height: 50px;
+  margin-top: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .nav__menu ul {
@@ -90,12 +101,12 @@ h1 {
 }
 
 .nav__menu ul li:nth-child(1) {
-  margin-left: 45px;
+  margin-left: 60px;
 }
 
 .nav__menu ul li:nth-child(2) {
-  margin-left: 100px;
-  padding-right: 30px;
+  margin-left: 150px;
+  padding-right: 20px;
 }
 
 .nav__hamburger {
