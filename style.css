@@ -15,14 +15,14 @@ body {
 
 /*Importing custom font*/
 @font-face {
-  font-family: Sneakers-Pro;
-  src: url(./HTML-graphics/sneakerspro.ttf)
+  font-family: Hatchway;
+  src: url(./HTML-graphics/hatchway.ttf)
 }
 
 h1 {
   text-align: center;
   color: #5D5C59;
-  font-family: "Sneakers-Pro";
+  font-family: "Hatchway";
   font-size: 60px;
   text-transform: uppercase;
 }
@@ -45,8 +45,6 @@ h1 {
   align-items: center;
   color: #000;
   background-color:#f5eec8;
-  border-bottom: 1px solid;
-  border-color: #000;
 }
 
 .nav__logo {
@@ -56,9 +54,9 @@ h1 {
 }
 
 .nav__logo img {
-  margin-top: 10px;
-    width: 100px;
-    height: 100px;
+  margin-top: 50px;
+    width: 150px;
+    height: 150px;
 }
 
 .nav__menu ul {
@@ -75,10 +73,11 @@ h1 {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px;
+  font-family: "Hatchway";
+  font-size: 27px;
+  font-weight: 10px;
   letter-spacing: 0.5px;
-  top: 2px;
+  top: 18px;
   color: #5D5C59;
   display: inline-block;
   padding: 0.5rem;
@@ -101,12 +100,13 @@ h1 {
 }
 
 .nav__menu ul li:nth-child(1) {
-  margin-left: 60px;
+  margin-left: 100px;
+  padding-right: 70px;
 }
 
 .nav__menu ul li:nth-child(2) {
   margin-left: 150px;
-  padding-right: 20px;
+  padding-right: 70px;
 }
 
 .nav__hamburger {
@@ -123,9 +123,9 @@ h1 {
 
 /*Hamburger to Cross Animation*/
 .nav__hamburger__line {
-  height: 0.188rem;
+  height: 0.2rem;
   width: 100%;
-  background-color: #000;
+  background-color: #5D5C59;
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
