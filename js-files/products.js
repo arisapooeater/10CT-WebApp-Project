@@ -5,7 +5,7 @@ const products = [
         title: "Procreate",
         desc: "",
         link: "https://procreate.com/",
-        type_category: "",
+        type_category: ["drawing"],
         price_category: "one-time-payment"
     },
     {
@@ -14,8 +14,8 @@ const products = [
         title: "Ibis Paint",
         desc: "",
         link: "",
-        type_category: "",
-        price_category: ""
+        type_category: ["drawing"],
+        price_category: "free"
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ const products = [
         title: "Clip Studio Paint",
         desc: "",
         link: "",
-        type_category: "",
+        type_category: ["drawing"],
         price_category: ""
     },
     {
@@ -32,7 +32,7 @@ const products = [
         title: "Adobe Fresco",
         desc: "",
         link: "",
-        type_category: "",
+        type_category: [""],
         price_category: ""
     },
     {
@@ -41,8 +41,8 @@ const products = [
         title: "Krita",
         desc: "",
         link: "",
-        type_category: "",
-        price_category: ""
+        type_category: ["drawing", "animation"],
+        price_category: "free"
     },
     {
         id: 6,
@@ -50,7 +50,7 @@ const products = [
         title: "Clip Studio Paint ",
         desc: "",
         link: "",
-        type_category: "",
+        type_category: [""],
         price_category: ""
     },
     {
@@ -59,63 +59,10 @@ const products = [
         title: "Clip Studio Paint ",
         desc: "",
         link: "",
-        type_category: "",
+        type_category: [""],
         price_category: ""
     },
-    {
-        id: 3,
-        img: '',
-        title: "Clip Studio Paint ",
-        desc: "",
-        link: "",
-        type_category: "",
-        price_category: ""
-    },
-    {
-        id: 3,
-        img: '',
-        title: "Clip Studio Paint ",
-        desc: "",
-        link: "",
-        type_category: "",
-        price_category: ""
-    },
-    {
-        id: 3,
-        img: '',
-        title: "Clip Studio Paint ",
-        desc: "",
-        link: "",
-        type_category: "",
-        price_category: ""
-    },
-    {
-        id: 3,
-        img: '',
-        title: "Clip Studio Paint ",
-        desc: "",
-        link: "",
-        type_category: "",
-        price_category: ""
-    },
-    {
-        id: 3,
-        img: '',
-        title: "Clip Studio Paint ",
-        desc: "",
-        link: "",
-        type_category: "",
-        price_category: ""
-    },
-    {
-        id: 3,
-        img: '',
-        title: "Clip Studio Paint ",
-        desc: "",
-        link: "",
-        type_category: "",
-        price_category: ""
-    },
+
 ]
 
 const grid = document.querySelector('.grid')
@@ -138,18 +85,26 @@ const renderProds = (arr) => {
 
 renderProds(products)
 
-const filterSelect = document.querySelector("#categoryFilter");
+const priceSelect = document.querySelector("#priceFilter");
+const typeSelect = document.querySelector("#typeFilter");
 
-filterSelect.addEventListener('change', (e) => {
-    const selectedCategory = e.target.value;
 
-    let filterProducts;
+function filterProducts() {
+    const selectedPrice = priceSelect.value;
+    const selectedType = typeSelect.value;
 
-    if (selectedCategory === 'all') {
-        filterProducts = products;
+    let filteredProducts;
+
+    if (selectedPrice === 'all' && selectedType === 'all') {
+        filteredProducts = products;
     } else {
-        filterProducts = products.filter(prod => prod.price_category === selectedCategory)
+        filteredProducts = products.filter(prod =>
+            prod.price_category === selectedPrice&&
+            prod.type_category.includes(selectedType));
     }
 
-    renderProds(filterProducts);
-})
+    renderProds(filteredProducts);
+}
+
+priceSelect.addEventListener('change', filterProducts)
+typeSelect.addEventListener('change', filterProducts)

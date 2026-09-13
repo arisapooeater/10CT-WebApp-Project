@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="catalogue-filter.css">
     <script src="./js-files/script.js" defer></script>
     <script src="./js-files/products.js" defer></script>
+    <script src="./js-files/multiselect-dropdown.js"></script>
     <title>KRAFTY</title>
     <link rel="icon" href="./HTML-graphics/substitutefornow.jpg">
   </head>
@@ -19,8 +20,8 @@
     <!-- App/Websites Filters + Grid -->
     <section class="Apps/Websites Container" id="product">
         <div class="filters">
-            <label for="categoryFilter">Price:</label>
-            <select id="categoryFilter">
+            <label for="priceFilter">Price:</label>
+            <select id="priceFilter">
               <option value="all">All</option>
               <option value="free">Free</option>
               <option value="one-time-payment">One-time payment</option>
@@ -28,9 +29,18 @@
             </select>
         </div>
 
-        <div class="filters"> 
-            s
+        <div class="filters">
+            <label for="typeFilter">Purpose:</label>
+            <select id="typeFilter" name="select" multiple>
+                <option value="drawing">Drawing</option>
+                <option value="animation">Animation</option>
+                <option value="croquis-reference">Croquis/reference</option>
+                <option value="commissions">Commissions</option>
+                <option value="image-video-editing">Image/Video Editing</option>
+                <option value="other">Other</option>
+            </select>
         </div>
+        
         
         <div class="grid">
       
