@@ -20,9 +20,11 @@ select, option {
 }
 
 .card {
+    position: relative;
     margin: 2rem;
     display: flex;
     gap: 1rem;
+    z-index: -1;
 }
 
 .card img {
@@ -30,8 +32,43 @@ select, option {
     height: 250px;
 }
 
+.button {
+    background-color: #b2a387;
+    padding: 7px 200px 7px 200px;
+    font-family: "Hatchway";
+    font-size: 23px;
+    color: #f5eec8;
+    text-transform: uppercase;
+    margin: 110px 0 0 10px;
+}
+
 
 .card-content {
     display: flex;
     flex-direction: column;
+    font-family: "Hatchway";
+    font-size: 23px;
+    color: #5D5C59;
+    pointer-events: none;
 }
+
+.card-content h3 {
+    text-transform: uppercase;
+}
+
+.card-content p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.filters {
+    font-family: "Hatchway";
+    text-transform: uppercase;
+    color: #5D5C59;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin: 20px  20px 0;
+}
+

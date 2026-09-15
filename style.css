@@ -4,18 +4,54 @@ body {
   background-color: #f5eec8;
 }
 
+.margin-page {
+  padding: 70px 0 0 0;
+}
+
+
+.homepage-cats {
+  width: 1000px;
+  height: 950px;
+  transform: translate(-60px,-180px);
+  pointer-events: none;
+  z-index: 1;
+
+
+}
+
+.selfpromo-cat {
+  width: 450px;
+  height: 450px;
+  transform: translate(30px, 220px);
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+
 /*Importing custom font*/
 @font-face {
   font-family: Hatchway;
   src: url(./HTML-graphics/hatchway.ttf)
 }
 
-h1 {
+h2 {
   text-align: center;
   color: #5D5C59;
   font-family: "Hatchway";
   font-size: 60px;
   text-transform: uppercase;
+  z-index: -1;
+}
+
+h1 {
+  text-align: right;
+  color: #5D5C59;
+  font-family: "Hatchway";
+  font-size: 90px;
+  text-transform: uppercase;
+  transform: translate(930px, 320px);
+  position: absolute;
+  z-index: -1;
 }
 
 .button {
@@ -30,29 +66,32 @@ h1 {
 }
 
 .nav {
-  height: 3.7rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1600px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
   background-color:#f5eec8;
+  border-bottom: 3px solid rgba(205, 196, 161, 0.673);
 }
 
 .nav__logo {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 46%;
+  top: -15%;
 }
 
 .nav__logo img {
-  margin-top: 50px;
-    width: 150px;
-    height: 150px;
+  display: block;
+  width: 150px;
+  height: 150px;
 }
 
 .nav__menu ul {
-  margin: 0;
-  padding: 0;
   display: flex;
 }
 
@@ -68,7 +107,7 @@ h1 {
   font-size: 27px;
   font-weight: 10px;
   letter-spacing: 0.5px;
-  top: 18px;
+  top: 6px;
   color: #5D5C59;
   display: inline-block;
   padding: 0.5rem;
@@ -79,7 +118,7 @@ h1 {
   content: "";
   position: absolute;
   background-color: #5D5C59;
-  height: 2px;
+  height: 3px;
   width: 0;
   left: 0;
   bottom: 5px;

@@ -16,13 +16,13 @@ body {
 .flipbook-container {
     display: block;
     place-content: center;
-    transform: translate(110px, 30px);
+    transform: translate(65px, 120px);
     z-index: 2;
 }
 
 .flipbook {
-    width: 1700px;
-    height: 800px;
+    width: 1400px;
+    height: 670px;
 }
 
 .flipbook .hard {
