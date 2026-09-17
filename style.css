@@ -10,11 +10,11 @@ body {
 
 
 .homepage-cats {
-  width: 1000px;
-  height: 950px;
-  transform: translate(-60px,-180px);
+  width: 65%;
+  transform: translate(-60px,-200px);
   pointer-events: none;
-  z-index: 1;
+  position: relative;
+  z-index: 3
 
 
 }
@@ -32,6 +32,19 @@ body {
 @font-face {
   font-family: Hatchway;
   src: url(./HTML-graphics/hatchway.ttf)
+}
+
+.events-content {
+  text-align: left;
+  padding: 0 0 10px 40px;
+  color: #5D5C59;
+  z-index: -1;
+}
+
+h3 {
+  font-family: "Hatchway";
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -55,14 +68,16 @@ h1 {
 }
 
 .button {
-  text-decoration: none;
-  text-align: center;
-  background-color: #FA5F55;
-  color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 6px 2px 6px 2px;
-  border: 5px 5px 5px 5px;
-  border-radius: 25px;
+    background-color: #b2a387;
+    padding: 7px 200px 7px 200px;
+    font-family: "Hatchway";
+    font-size: 23px;
+    color: #f5eec8;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin: 110px 0 0 10px;
+    border-radius: 25px;
 }
 
 .nav {
@@ -70,13 +85,14 @@ h1 {
   top: 0;
   left: 0;
   right: 0;
-  width: 1600px;
-  height: 100px;
+  width: 100%;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color:#f5eec8;
   border-bottom: 3px solid rgba(205, 196, 161, 0.673);
+  z-index: 2;
 }
 
 .nav__logo {
@@ -118,11 +134,12 @@ h1 {
   content: "";
   position: absolute;
   background-color: #5D5C59;
-  height: 3px;
+  border-radius: 4px;
+  height: 4px;
   width: 0;
   left: 0;
   bottom: 5px;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .nav__menu ul li a:hover:after {

@@ -24,22 +24,11 @@ select, option {
     margin: 2rem;
     display: flex;
     gap: 1rem;
-    z-index: -1;
 }
 
 .card img {
     width: 250px;
     height: 250px;
-}
-
-.button {
-    background-color: #b2a387;
-    padding: 7px 200px 7px 200px;
-    font-family: "Hatchway";
-    font-size: 23px;
-    color: #f5eec8;
-    text-transform: uppercase;
-    margin: 110px 0 0 10px;
 }
 
 
@@ -49,10 +38,9 @@ select, option {
     font-family: "Hatchway";
     font-size: 23px;
     color: #5D5C59;
-    pointer-events: none;
 }
 
-.card-content h3 {
+.card-content h4 {
     text-transform: uppercase;
 }
 
@@ -69,6 +57,6 @@ select, option {
     display: flex;
     justify-content: flex-end;
     align-items: right;
-    margin: 20px  20px 0;
+    margin: 20px 40px 0 0;
 }
 

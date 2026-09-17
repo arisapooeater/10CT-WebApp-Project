@@ -11,7 +11,7 @@
     <script src="./js-files/products.js" defer></script>
     <script src="./js-files/multiselect-dropdown.js"></script>
     <title>KRAFTY</title>
-    <link rel="icon" href="./HTML-graphics/substitutefornow.jpg">
+    <link rel="icon" href="./HTML-graphics/KRAFTY_logo.png">
   </head>
   <body class="margin-page">
     <div id="nav-placeholder"></div>
@@ -21,23 +21,22 @@
     <section class="Apps/Websites Container" id="product">
         <div class="filters">
             <label for="priceFilter">Price:  </label>
-            <select id="priceFilter">
-              <option value="all">All</option>
-              <option value="free">Free</option>
-              <option value="one-time-payment">One-time payment</option>
-              <option value="subscription">Subscription-based</option>
+            <select id="priceFilter" name="select" multiple>
+              <option value="free" selected>Free</option>
+              <option value="one-time-payment" selected>One-time payment</option>
+              <option value="subscription" selected>Subscription-based</option>
             </select>
         </div>
         <div class="filters">
             <label for="typeFilter">Purpose:  </label>
             <select id="typeFilter" name="select" multiple>
-                <option value="drawing">Drawing</option>
-                <option value="animation">Animation</option>
-                <option value="croquis-reference">Croquis/reference</option>
-                <option value="commissions">Commissions</option>
-                <option value="image-video-editing">Image/Video Editing</option>
-                <option value="textures-graphics">Textures/graphics</option>
-                <option value="other">Other</option>
+                <option value="drawing" selected>Drawing</option>
+                <option value="animation" selected>Animation</option>
+                <option value="croquis-reference" selected>Croquis/reference</option>
+                <option value="commissions" selected>Commissions</option>
+                <option value="image-video-editing" selected>Image/Video Editing</option>
+                <option value="textures-graphics" selected>Textures/graphics</option>
+                <option value="other" selected>Other</option>
             </select>
         </div>
         

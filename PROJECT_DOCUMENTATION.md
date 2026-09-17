@@ -90,11 +90,29 @@ https://www.oii.ox.ac.uk/art-algorithms-new-exhibit-highlights-differences-betwe
 
 `*Note: I posted this Google Forms on my public art account and to people I know in our grade who have an interest in art`
 
-**Interview #1: Rigia**
+**Interview #1: Lygia**
 
-**Interview #2: Kez**
-- Conduct primary research into your topic. Consider your target market and gather information through surveys, questionnaires and/or interviews. Make sure to include questions to gather quantitative and qualitative data.
-- Organise your data (e.g. quantitative into spreadsheet / qualitative into .md file)
+**Me:** So the issue I'm basically exploring is the difficulty finding art resources, especially digitally. So things like finding the right art apps, animations apps, and finding cool resources and tools to help advance your creativity. I was wondering if you have any experience struggling to pick or find any art resources online?
+
+**Lygia:** Yeah I have, specifically art animation apps. For drawing apps, there are a ton of free apps that provide a lot free stuff to work with, a lot of filters, a lot of brushes. But for animation, animation apps are extremely scarce. They're either expensive or that they are very basic and limited. Like flipaclip makes you pay for layers! Whenever I see someone very talented using an application like flipaclip, I always think 'I wonder what they could make if they more'. 
+
+**Me:** Okay, so my website basically has a whole catalogue of apps, tools and resources with filters for pricing and the kind of purpose it holds such as references, image/video editing and etc. etc. That's like the basic version of my proposal, it also has other features I'm planning on implementing but I just have to ask, would you find it useful?
+
+**Lygia:** I would find it useful and I would use it because sometimes, with the rise of AI and everything, it's really hard to find genuine references and filters that I would want to fully support and use. A website with like lots of links to tools and trinkety stuff would be definitely cool and it'd help artist experiment and bedazzle their work or just get better in general!
+
+**Me:** Yay thanks! Is it possible you could rate the idea on a scale of 1 to 5, and maybe something you specifically would want from the website?
+
+**Lygia:** So the website is basically like giving tips and links to certain things for artists right?
+
+**Me:** Yep!
+
+**Lygia:** I like don't really have particular suggestions but from how you describe it, it sounds really useful and I would rate it 5 out of 5. I really hope that it's executed, but I put my trust in you to execute it well! Hmmmm
+
+**Me:** It doesn't have to be anything related to the idea itself, it's just anything you personally would find useful, as an artist.
+
+**Lygia:** References are my life, literally because I tend to draw for memory and imagination a lot but I usually can't find good references on my own. So I'm kind of stunted in the way of drawing things like interesting buildings and objects, or even animals properly. 
+
+### Primary Research - Evaluation
 - Evaluate your findings and consider how it impacts your project moving forward.
 
 ### UI/UX Design
@@ -152,11 +170,30 @@ This week has had minimal progress due to being sick during our lesson days, how
 <img src="./images/wk4commits.png" alt="Week 4 Commits" width="500" height="600">
 
 #### Week 5
-#### Week 6
-#### Week 7
-#### Week 8
+- progress: starting creating the prototypes of my main functions and searched and found tutorials for the filter catalogue, the navigation bar, and some button animations that id like to implement but alter to my specific idea. I also found that making a flipbook with css and javascript is really simple and implementable (i got the idea when reading a book online using the same script) so I think it'd be cool if the self-promotion 101 simulated a sort of handibook -- which would really help push the creative and handmade branding of the website
+- reflection: very productive this week and i've made a lot of progress with the website development. i need to remember that I did leave some theory undone such as the secondary research so I think although I am working at a good pace now, I still need to remember that I still have things to do other than developing the website, such as researching and making the website content and finishing up my unfinished theory
+- project requirements: the theory work ive been working on especially relates to the reliability point in my nonfuncitonal requirements, and i think my research depth does align with how informational I was aiming for and most of the content I've created describes applications mainly objectively.
+- required improvements: as of currently I don't really have any critiques on my progress and how I'm going about things as I've been really productive this week, and I also did end up asking Mr Scott for clarification on some bits in the task which I neglected doing last week.
+- next week goal:  I know I will be going into a dreadful preliminary examination block so my progress will surely slow down but I want to make sure I am still consistently doing SOMETHING, such as making graphics for the website or researching the website content.
+
+
+<img src="./images/wk5commits1.png" alt="Week 5 Commits" width="500" height="600">
+
+
+#### Week 6-8 (barely anything but make this one extra long)
+- progress: mostly paused developing the website for 2 weeks unfortunately due to my two preliminary examinations. focused on gathering content for the website such as researching a range of applications and their costs and features, some self promotion tips from professional artists and trusted sources. I also wanted the website to be aesthetically creative and artistic which is why I made an animation loop of two cats yawning for the homepage of my website, which I will implement once my exams are finished.
+- reflection: it does make me concerned that my progress has been very stunted in the past 3 or so weeks, but I believe that the reason is valid and Computing Tech is just not my priority right now. However, I do believe I am being the most productive I can right now in order to balance CT with my exam studies but not get too behind on the development by focusing on tedious but easy elements like website content. 
+- project requirements: I do believe my website aligns vaguely with the functional requirements I've outlined, especially as the performance is mostly consistent discluding some minor errors in the catalogue filter's logic flow, and i did create the content so that it is both thoroughly researched and unbiased. One functional requirement I believe I've been dismissing a lot at the moment is accessibility, as although I purposely increased the sizing of the fonts and several elements in the website, I had originally intended for there to be a text to speech button for my content. However, this is something I will have to either compromise due to a lack of time, or will implement last minute once my content is finalised so I do not need to update audio files repetitively.
+- required improvements: i feel like thw ay ive been researching and working is like im creating a draft that i can fix later, but honestly the project is due very soon and i think i should improve this mindset to be more proactive 
+- next week goal: get back to implementing the website content i've made so far and further developing and fixing bugs.
+
+<img src="./images/wk678commits.png" alt="Week 6-8 Commits" width="500" height="600">
+<img src="./images/wk678commits1.png" alt="Week 6-8 Commits" width="500" height="600">
+
+
 #### Week 9
-#### Week 10 
+It is week 9 right now btw
+
 
 ## Testing and Evaluating
 ### Peer Evaluation
