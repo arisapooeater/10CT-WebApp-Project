@@ -36,7 +36,7 @@ select, option {
     display: flex;
     flex-direction: column;
     font-family: "Hatchway";
-    font-size: 23px;
+    font-size: 30px;
     color: #5D5C59;
 }
 
@@ -45,9 +45,8 @@ select, option {
 }
 
 .card-content p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .filters {

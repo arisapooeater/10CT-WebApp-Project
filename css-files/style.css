@@ -1,7 +1,16 @@
+/*Importing custom font*/
+@font-face {
+  font-family: Hatchway;
+  src: url(../HTML-graphics/hatchway.ttf)
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Hatchway";
   background-color: #f5eec8;
+  text-transform: uppercase;
+  color: #5D5C59;
 }
 
 .margin-page {
@@ -20,64 +29,70 @@ body {
 }
 
 .selfpromo-cat {
-  width: 450px;
-  height: 450px;
-  transform: translate(30px, 220px);
+  width: 30%;
+  height: 67%;
+  transform: translate(310px, 213px);
   pointer-events: none;
   position: absolute;
   z-index: -1;
 }
 
-/*Importing custom font*/
-@font-face {
-  font-family: Hatchway;
-  src: url(./HTML-graphics/hatchway.ttf)
-}
-
-.events-content {
-  text-align: left;
-  padding: 0 0 10px 40px;
-  color: #5D5C59;
-  z-index: -1;
-}
 
 h3 {
-  font-family: "Hatchway";
   font-size: 50px;
-  text-transform: uppercase;
+  margin: 0;
 }
 
 h2 {
   text-align: center;
-  color: #5D5C59;
-  font-family: "Hatchway";
   font-size: 60px;
-  text-transform: uppercase;
   z-index: -1;
 }
 
 h1 {
   text-align: right;
-  color: #5D5C59;
-  font-family: "Hatchway";
   font-size: 90px;
-  text-transform: uppercase;
   transform: translate(930px, 320px);
   position: absolute;
   z-index: -1;
 }
 
+p {
+  font-size: 21px;
+  text-transform: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.events-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left-p {
+  align-self: flex-start;
+  width: 45%;
+  padding-left: 60px; 
+}
+
+.right-p {
+  text-align: right;
+  align-self: flex-end;
+  width: 45%;
+  padding-right: 60px;
+}
+
 .button {
-    background-color: #b2a387;
-    padding: 7px 200px 7px 200px;
-    font-family: "Hatchway";
-    font-size: 23px;
-    color: #f5eec8;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    margin: 110px 0 0 10px;
-    border-radius: 25px;
+  background-color: #b2a387;
+  padding: 7px 200px 7px 200px;
+  font-family: "Hatchway";
+  font-size: 23px;
+  color: #f5eec8;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 25px;
 }
 
 .nav {

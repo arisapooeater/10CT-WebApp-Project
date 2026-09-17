@@ -118,11 +118,11 @@ const products = [
     },
     {
         id: 14,
-        title: "POSEMANIACS",
+        title: "Alight Motion",
         desc: "",
-        img: './HTML-graphics/posemaniacs-logo.png',
-        link: "https://www.posemaniacs.com/",
-        type_category: ["croquis-reference"],
+        img: '',
+        link: "",
+        type_category: ["animation, image-video-editing"],
         price_category: ["free"]
     },
     {
@@ -310,7 +310,7 @@ const renderProds = (arr) => {
                 <div class="card-content"> 
                     <h4>${prod.title}</h4>
                     <p>${prod.desc}</p>
-                    <a class="button" href="${prod.link}">Check it out!</a>
+                    <a class="button" href="${prod.link}" style="margin-top: 90px;">Check it out!</a>
                 </div>
           </div>`
     })
