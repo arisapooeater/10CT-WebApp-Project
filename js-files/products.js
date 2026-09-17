@@ -12,7 +12,7 @@ const products = [
         id: 2,
         img: './HTML-graphics/clipstudiopaint_logo.png',
         title: "Clip Studio Paint",
-        desc: "",
+        desc: "Professional-grade illustration, animation and design app with 3D modelling, vector layering, collaboration, comic-making capabilities with inbuilt premade effects, graphics and reference tools.",
         link: "https://www.clipstudio.net/en/",
         type_category: ["all", "drawing", "animation"],
         price_category: ["all", "one-time-payment", "subscription-based"]
@@ -21,7 +21,7 @@ const products = [
         id: 3,
         img: './HTML-graphics/adobefresco_logo.webp',
         title: "Adobe Fresco",
-        desc: "",
+        desc: "Digital illustration and animation app with thousands of raster and vector brushes with inbuilt motion tools for adding movement to illustration, as well as frame-by-frame animation functions. It's advantageous in that it is highly convertible between other Adobe apps like Illustrator and Photoshop.",
         link: "https://www.adobe.com/au/products/fresco.html",
         type_category: ["all", "drawing", "animation"],
         price_category: ["all", "free"]
@@ -30,7 +30,7 @@ const products = [
         id: 4,
         img: './HTML-graphics/ibispaint-logo.webp',
         title: "Ibis Paint X",
-        desc: "",
+        desc: "Illustration app with library of premade objects and backgrounds, and manga or comic-making tools such as screen-tone and frame divider. It also has a community page where you can share your own art processes and custom brushes. It is popular among beginner digital artists, or artists who need an application with capabilities similar to a paid application.",
         link: "https://ibispaint.com/about.jsp?lang=en",
         type_category: ["all", "drawing"],
         price_category: ["all", "free"]
@@ -39,7 +39,7 @@ const products = [
         id: 5,
         img: './HTML-graphics/krita_logo.webp',
         title: "Krita",
-        desc: "",
+        desc: "Professional opensource painting and animation app with extensive brushes, packages, texture packs and plug-ins with powerful 2D animation capabilities including layering, adding audio and fine tuning frames.  Includes a customisable keyboard short-cuts and workspace layout with over 30 dockers. It also has a supportive online community of Krita artists to share artworks and tips.",
         link: "https://krita.org/en/",
         type_category: ["all", "drawing", "animation"],
         price_category: ["all", "free"]
@@ -66,7 +66,7 @@ const products = [
         id: 8,
         img: './HTML-graphics/wigglypaint-logo.gif',
         title: "Wiggly Paint",
-        desc: "",
+        desc: "Experimental drawing program with 8 unique brushes for creating doodles and illustration with a animated 'wiggly' effect with interactive sound effects. Please note that this application was stolen from the original creator Internet Janitor, who created it using Decker on itch.io, and any official websites that are featured from searching it up are stolen versions that support AI.",
         link: "https://internet-janitor.itch.io/wigglypaint",
         type_category: ["all", "drawing"],
         price_category: ["all", ""]
@@ -84,7 +84,7 @@ const products = [
         id: 10,
         img: './HTML-graphics/salvagednu-logo.jpeg',
         title: "Salvaged.NU",
-        desc: "",
+        desc: "Extensive gallery of recovered brushes and textures for digital art and scrapbooking from lost personal blogs from the mid-2000s. These can be used in your creative works and illustrations!",
         link: "https://salvaged.nu/",
         type_category: ["all", "textures-graphics"],
         price_category: ["all", ""]
@@ -92,7 +92,7 @@ const products = [
     {
         id: 11,
         title: "Character Design References",
-        desc: "",
+        desc: "Vast collection of real artist portfolios, production art, illustrations in the industry, animation and drawing reference sheet and video tutorials to inspire creative character design, animation and illustration.",
         img: './HTML-graphics/characterdesignreferences-logo.webp',
         link: "https://characterdesignreferences.com/",
         type_category: ["all", "croquis-reference"],
@@ -173,7 +173,7 @@ const products = [
     {
         id: 20,
         title: "VGen",
-        desc: "",
+        desc: "Commissions hub that allows you to post and host commissions prices easily. It uses an invite-only artist access policy to promote anti-AI and takes a 5% service fee for any commissions.",
         img: './HTML-graphics/vgen-logo.png',
         link: "https://vgen.co/",
         type_category: ["all", "commissions"],
@@ -200,7 +200,7 @@ const products = [
     {
         id: 23,
         title: "Animal Photo Art References by x6ud",
-        desc: "",
+        desc: "Reference website with an extensive collection of reference images for a variety of animal heads from any angle using an interactive 3d skull.",
         img: './HTML-graphics/animalreference-logo.png',
         link: "https://x6ud.github.io/#/",
         type_category: ["all", "croquis-reference"],
