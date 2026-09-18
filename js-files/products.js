@@ -296,6 +296,105 @@ const products = [
         type_category: ["other"],
         price_category: ["free"]
     },
+    {
+        id: 34,
+        title: "Live2d",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "https://www.live2d.com/en/",
+        type_category: ["animation"],
+        price_category: ["free", "subscription-based"]
+    },
+    {
+        id: 35,
+        title: "Rough Animator",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "",
+        type_category: ["animation"],
+        price_category: ["free"]
+    },
+    {
+        id: 36,
+        title: "Cloud Stop Motion",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "https://app.cloudstopmotion.com/v2/animate/dashboard/projects",
+        type_category: ["animation"],
+        price_category: ["free"]
+    },
+    {
+        id: 37,
+        title: "Bluestacks",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "https://www.bluestacks.com/",
+        type_category: ["other"],
+        price_category: ["free"]
+    },
+    {
+        id: 38,
+        title: "Capcut",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "https://www.capcut.com/",
+        type_category: ["image-video-editing"],
+        price_category: ["free"]
+    },
+    {
+        id: 39,
+        title: "OpenToonz",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "",
+        type_category: ["animation"],
+        price_category: ["free"]
+    },
+    {
+        id: 40,
+        title: "Tahoma2D",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "",
+        type_category: ["animation"],
+        price_category: ["free"]
+    },
+    {
+        id: 41,
+        title: "Blender3D Grease Pencil",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "",
+        type_category: ["animation"],
+        price_category: ["free"]
+    },
+    {
+        id: 42,
+        title: "Toonsquid",
+        desc: "",
+        img: './HTML-graphics/',
+        link: "",
+        type_category: ["animation"],
+        price_category: ["free"]
+    },
+    {
+        id: 43,
+        title: "Artistree",
+        desc: "",
+        img: 'https://artistree.io/',
+        link: "",
+        type_category: ["commissions"],
+        price_category: ["free"]
+    },
+    {
+        id: 44,
+        title: "Ko-Fi",
+        desc: "",
+        img: 'https://ko-fi.com/',
+        link: "",
+        type_category: ["commissions"],
+        price_category: ["free"]
+    },
 ]
 
 const grid = document.querySelector('.grid')
