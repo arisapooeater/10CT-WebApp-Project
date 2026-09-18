@@ -11,6 +11,8 @@ body {
   background-color: #f5eec8;
   text-transform: uppercase;
   color: #5D5C59;
+  width: 100%;
+  height: 100%;
 }
 
 .margin-page {
@@ -20,10 +22,12 @@ body {
 
 .homepage-cats {
   width: 65%;
-  transform: translate(-60px,-200px);
+  height: 138%;
   pointer-events: none;
-  position: relative;
-  z-index: 3
+  position: absolute;
+  z-index: 3;
+  left: -4%;
+  bottom: -22%;
 
 
 }
@@ -31,34 +35,36 @@ body {
 .selfpromo-cat {
   width: 30%;
   height: 67%;
-  transform: translate(310px, 213px);
   pointer-events: none;
   position: absolute;
   z-index: -1;
+  left: 20%;
+  bottom: 2%
 }
 
 
 h3 {
-  font-size: 50px;
-  margin: 0;
+  font-size: 3vw;
 }
 
 h2 {
   text-align: center;
-  font-size: 60px;
+  font-size: 4vw;
   z-index: -1;
+  margin-top: 6%
 }
 
 h1 {
   text-align: right;
-  font-size: 90px;
-  transform: translate(930px, 320px);
+  font-size: 6vw;
   position: absolute;
+  right: 6%;
+  bottom: 3%;
   z-index: -1;
 }
 
 p {
-  font-size: 21px;
+  font-size: 1.5vw;
   text-transform: none;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -66,33 +72,61 @@ p {
 .events-content {
   display: flex;
   flex-direction: column;
+  position: absolute;
   width: 100%;
 }
 
-.left-p {
-  align-self: flex-start;
+.event-text {
   width: 45%;
-  padding-left: 60px; 
 }
 
-.right-p {
+.event-img {
+  margin: 3% 3% 6% 3%;
+  width: 50vw;
+  height: 70vh;
+}
+
+.event-left {
+  display: flex;
+  text-align: left;
+  padding-left: 3%; 
+}
+
+.event-right {
+  display: flex;
+  justify-content: flex-end;
   text-align: right;
-  align-self: flex-end;
-  width: 45%;
-  padding-right: 60px;
+  padding-right: 3%;
+}
+
+.event-left .event.image {
+  justify-self: end;
+}
+
+.event-right .event.image {
+  justify-self: start;
+}
+
+hr {
+  border: none;
+  border-top: 0.5vh solid rgba(205, 196, 161, 0.673);
+  width: 95%;  
 }
 
 .button {
   background-color: #b2a387;
-  padding: 7px 200px 7px 200px;
+  padding: 0.6vw 20vh 0.6vw 20vh;
   font-family: "Hatchway";
-  font-size: 23px;
   color: #f5eec8;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   margin-left: 10px;
   border-radius: 25px;
+  height: 4.5vh;
+  width: 17vw;
+  font-size: 1.7vw;
+  margin-top: 7.5%
 }
 
 .nav {
@@ -106,20 +140,20 @@ p {
   justify-content: center;
   align-items: center;
   background-color:#f5eec8;
-  border-bottom: 3px solid rgba(205, 196, 161, 0.673);
+  border-bottom: 0.5vh solid rgba(205, 196, 161, 0.673);
   z-index: 2;
 }
 
 .nav__logo {
   position: absolute;
   left: 46%;
-  top: -15%;
+  align-content: center;
 }
 
 .nav__logo img {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 20%;
+  height: 20%;
 }
 
 .nav__menu ul {
@@ -135,13 +169,12 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Hatchway";
-  font-size: 27px;
+  font-size: 2vw;
   font-weight: 10px;
   letter-spacing: 0.5px;
   top: 6px;
   color: #5D5C59;
   display: inline-block;
-  padding: 0.5rem;
 }
 
 /*Underline animation*/
@@ -150,10 +183,10 @@ p {
   position: absolute;
   background-color: #5D5C59;
   border-radius: 4px;
-  height: 4px;
+  height: 12%;
   width: 0;
   left: 0;
-  bottom: 5px;
+  bottom: 3%;
   transition: 0.4s;
 }
 
@@ -161,15 +194,19 @@ p {
   width: 100%;
 }
 
-.nav__menu ul li:nth-child(1) {
-  margin-left: 100px;
-  padding-right: 70px;
+
+.nav__menu ul li:first-child {
+    margin-left: 6vw;
 }
 
 .nav__menu ul li:nth-child(2) {
-  margin-left: 150px;
-  padding-right: 70px;
+    margin-left: 17vw;
 }
+
+.nav__menu ul li:nth-child(3) {
+    margin-left: 3vw;
+}
+
 
 
 

@@ -1,41 +1,27 @@
-h2 {
-  position: absolute;
-  margin-left: 200px;
-  margin-top: 180px;
-  color: #5D5C59;
-  font-family: "Oswald";
-  font-size: 60px;
-  text-transform: uppercase;
-  z-index: -1;
-}
-
-body {
-    overflow: hidden;
-}
-
 .flipbook-container {
     display: block;
     place-content: center;
-    transform: translate(65px, 120px);
     z-index: 2;
 }
 
 .flipbook {
     width: 92vw;
-    height: 97vh;
+    height: 100%;
+    position: absolute;
+    right: -4vw; 
 }
 
 .flipbook .hard {
     background: #9e8f71 !important;
     border: none;
-    font-size: 40px;
+    font-size: 3vw;
     text-align: center;
     color: #5D5C59;
 }
 
 .flipbook .hard img {
     width: 200%;
-    height: 200%
+    height: 200%;
 }
 
 
@@ -52,6 +38,10 @@ body {
 .flipbook .page small {
     font-size: 14px;
     margin-bottom: 10px;
+}
+
+.page-content {
+    margin: 2vh 2vw 2vh 2vw;
 }
 
 
