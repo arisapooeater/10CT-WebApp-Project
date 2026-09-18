@@ -66,7 +66,7 @@ const products = [
         id: 8,
         img: './HTML-graphics/wigglypaint-logo.gif',
         title: "Wiggly Paint",
-        desc: "Experimental drawing program with 8 unique brushes for creating doodles and illustration with a animated 'wiggly' effect with interactive sound effects. Please note that this application was stolen from the original creator Internet Janitor, who created it using Decker on itch.io, and any official websites that are featured from searching it up are stolen versions that support AI.",
+        desc: "Experimental drawing program with 8 unique brushes for creating doodles and illustration with a animated 'wiggly' effect with interactive sound effects. Please note that this application was stolen from the original creator Internet Janitor on itch.io, and any 'official' websites are stolen versions that support AI.",
         link: "https://internet-janitor.itch.io/wigglypaint",
         type_category: ["drawing"],
         price_category: ["free"]
@@ -132,7 +132,7 @@ const products = [
         img: './HTML-graphics/quickposes-logo.png',
         link: "https://quickposes.com/en",
         type_category: ["croquis-reference"],
-        price_category: ["frew"]
+        price_category: ["free"]
     },
     {
         id: 16,
@@ -222,7 +222,7 @@ const products = [
         img: './HTML-graphics/ctrlpaint-logo.jpg',
         link: "https://toyhou.se/",
         type_category: ["other"],
-        price_category: ["free, one-time-payment"]
+        price_category: ["free", "one-time-payment"]
     },
     {
         id: 26,
@@ -323,15 +323,17 @@ const typeSelect = document.querySelector("#typeFilter");
 
 
 function filterProducts() {
-    const selectedPrice = priceSelect.value;
-    const selectedType = typeSelect.value;
+    const selectedPrice = Array.from(priceSelect.selectedOptions).map(option => option.value);
+    const selectedType = Array.from(typeSelect.selectedOptions).map(option => option.value);
 
     let filteredProducts;
 
 
     filteredProducts = products.filter(prod => {
-        return prod.price_category.some(option => prod.price_category.includes(selectedPrice)) &&
-               prod.type_category.some(option => prod.type_category.includes(selectedType))
+        const priceMatch = selectedPrice.length === 0 || selectedPrice.some(option => prod.price_category.includes(option));
+        const typeMatch = selectedType.length === 0 || selectedType.some(option => prod.type_category.includes(option));
+        
+        return priceMatch && typeMatch
     });
 
     renderProds(filteredProducts);
