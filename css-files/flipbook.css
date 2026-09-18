@@ -1,14 +1,15 @@
 .flipbook-container {
     display: block;
     place-content: center;
-    z-index: 2;
+    position: relative;
 }
 
 .flipbook {
     width: 92vw;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     right: -4vw; 
+    top: 4.5vh;
 }
 
 .flipbook .hard {
@@ -16,7 +17,7 @@
     border: none;
     font-size: 3vw;
     text-align: center;
-    color: #5D5C59;
+    color: #f5eec8;
 }
 
 .flipbook .hard img {
