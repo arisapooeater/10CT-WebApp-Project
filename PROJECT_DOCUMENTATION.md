@@ -119,9 +119,9 @@ https://www.oii.ox.ac.uk/art-algorithms-new-exhibit-highlights-differences-betwe
 Generate and evaluate alternative designs using website wireframes and webpage storyboards. You may do this on paper or using Adobe XD / Figma.
 | | Website Wireframe | Webpage storyboard |
 |-|-|-|
-| Design 1 (visual, structured) | <img src="./images/wireframe1.png" alt="Design 1 Wireframe" width="500" height="400"> | |
-| Design 2 (game-like, interactive) | <img src="./images/wireframe2.png" alt="Design 2 Wireframe" width="500" height="800"> | | 
-| Design 3 (similar to design 1, more standard) | <img src="./images/wireframe3.png" alt="Design 3 Wireframe" width="500" height="400"> | 
+| Design 1 (visual, structured) | <img src="./images/wireframe1.png" alt="Design 1 Wireframe" width="500" height="400"> | <img src="./images/storyboard1.png" alt="Design 1 Storyboard" width="250" height="400"> <img src="./images/storyboard1.1.png" alt="Design 1 Storyboard" width="500" height="400">|
+| Design 2 (game-like, interactive) | <img src="./images/wireframe2.png" alt="Design 2 Wireframe" width="250" height="400"> | <img src="./images/storyboard2.png" alt="Design 2 Storyboard" width="500" height="400"> | 
+| Design 3 (similar to design 1, more standard) | <img src="./images/wireframe3.png" alt="Design 3 Wireframe" width="800" height="400"> | <img src="./images/storyboard3.png" alt="Design 3 Storyboard" width="500" height="400"> |
 
 
 
