@@ -188,14 +188,37 @@ Therefore next week, after my exams, I will get back to working with code by fir
 
 
 #### Week 9
-It is one week before this project is due and I have finished the website and the design theory, discluding my final peer evaluation. I tracked my progress throughout the week with a to-do list to organise everything I had to finalise, which also made me realise how much work I'd left for myself to do, such as catching up on evaluating my primary and secondary research, and creating the storyboards. However, I believe I've made up for it with my diligence throughout the week, and I have managed to fix the catalogue error. I found that since I made the modification of turning the both the product price/type data type and the price/type filter data type from a string to an array, I need to use the some() function instead of the includes() function as the latter cannot work with an array in an array. This bug was originally affecting the alignment of my project with my functionality and reliability requirements as it was causing my catalogue to return the wrong products for the wrong filter settings, or was just not returning anything at all. This would've created an issue as it would've misinformed users on product details, which is why I'm relieved the issue is now resolved.
+It is one week before this project is due and I have finished the website and the design theory, discluding my final peer evaluation. I tracked my progress throughout the week with a to-do list to organise everything I had to finalise, which also made me realise how much work I'd left for myself to do, such as catching up on evaluating my primary and secondary research, and creating the storyboards. However, I believe I've made up for it with my diligence throughout the week, and I have managed to fix the catalogue error. I found that since I made the modification of turning the both the product price/type data type and the price/type filter data type from a string to an array, I need to use the x.some() function instead of the x.includes() function as the latter cannot work with an array in an array. This bug was originally affecting the alignment of my project with my functionality and reliability requirements as it was causing my catalogue to return the wrong products for the wrong filter settings, or was just not returning anything at all. This would've created an issue as it would've misinformed users on product details, which is why I'm relieved the issue is now resolved.
 I will be keeping most of this progress log minimal as since my project is finished by this week, it will clash with my final evaluation, however I do believe I made the right decision to include the text to speech feature to ensure my website aligned with the accessibility requirements. I don't have any improvements for myself currently as I worked the best I can to finish this project, but to ensure I turn this project in on time, I will make sure to right my evaluation quickly (or create a template beforehand to insert information into) after receiving peer feedback so I do not have to pull an all-nighter.
 
 
 ## Testing and Evaluating
 ### Peer Evaluation
 **Evaluate your own project and that of your peers using predetermined criteria.**
+Your web app should:
+
+Respond clearly to the theme "Influence"
+
+Aim to have a positive social impact (local, national or global)
+
+Be interactive in some way (form, buttons, quiz, media, etc.)
+
+Include a clear message or call to action
+
+Use multimedia elements (e.g. text, images, audio, video, animation)
+
+Be designed with accessibility and user experience in mind
+
+
 ### Evaluation of Issues
 **Evaluation of your solution in terms of social, ethical, and legal responsibilities / issues.**
+- social: ensure it has a positive impact, information is inclusive and appropriate for a diverse range of artists, not producing any negative biases on specific art apps or websites, avoid creating unrealistic expectations for artists when it comes to social media -- making information available and grounded but not forced onto users
+
+- ethical: accurately represent information and avoid misleading users and avoid plagiarising and copying other website content and layouts, ensure that user privacy is protected, be transparent and give credit for any graphics/images/data from external sources, be responsible for the impact website content will have on users
+- legal: follow copyright and intellectual property laws when using any external images, graphics or content and get licensing and permission for use of multimedia not made by you, do not copy substantial content from other websites without permission, privacy/data collection laws
+
 ### Project Evaluation
 **Evaluate the final product in terms of meeting requirements, project management and its impact on the target market.**
+- meeting requirements
+- project management:
+- impact on target market: i created a static link for my peers to test as well as my artist friend Lygia from the interview. (say what they liked about it), which tells me that (). Generally looking at my website and its content from an unbiased perspective, I like its friendly tone and branding, and I find that its simplicity makes all t he information more accessible for everyone. However, I do believe that the information, especially in the app catalogue could be a little more detailed, as i did cut a lot due to spacing and some my issues with time management. The catalogue definitely could benefit with more precise information on pricing and comparative advantages and disadvantages, which i did research but did not implement into the project --- it would definitely help artists narrow down which website is most suited for them, however i do like that my website doesn't diagnose which app is good for who, and gives them free reign to further research anything that sparks their interest.
