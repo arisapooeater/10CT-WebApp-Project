@@ -128,7 +128,7 @@ const products = [
     {
         id: 15,
         title: "Quickposes",
-        desc: "",
+        desc: "Quickposes is a free online tool that helps artists improve in their gigurative gesture drawing skills. It works by displaying a reference (often nude) of a pose or image for a timed interval using automatic rotation, providing video tutorials from professional artists for those who are new to practising croquis as well.",
         img: './HTML-graphics/quickposes-logo.png',
         link: "https://quickposes.com/en",
         type_category: ["croquis-reference"],
@@ -137,20 +137,20 @@ const products = [
     {
         id: 16,
         title: "Adorkastock",
-        desc: "",
+        desc: "A popular online library of non-nude human pose references created by artist and photographer Sarah Forde. Its advantageous for its diversity in gender, race and body type where reference packs include dynamic posing and perspectives that are targetted for artists.",
         img: './HTML-graphics/adorkastock-logo.png',
         link: "https://www.adorkastock.com/pose/",
         type_category: ["croquis-reference"],
-        price_category: [""]
+        price_category: ["free", "subscription-based"]
     },
     {
         id: 17,
         title: "TrueRef",
-        desc: "",
+        desc: "Trueref is an online collection of high-resolution human figure photo references and stock images for illustrators and designers. It is advantageous for its quality studio lighting, clothing and costumes.",
         img: './HTML-graphics/trueref-logo.jpg',
         link: "https://trueref.io/",
         type_category: ["croquis-reference"],
-        price_category: [""]
+        price_category: ["free", "subscription-based"]
     },
     {
         id: 18,
