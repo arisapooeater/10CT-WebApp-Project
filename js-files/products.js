@@ -57,14 +57,14 @@ const products = [
         id: 7,
         img: './HTML-graphics/coolors-logo.png',
         title: "Coolors",
-        desc: "Generate or browse through 5 colour palette combinations through an easy and interactive interface by inputting key words and themes.",
+        desc: "Coolors is a colour palette generating software where artists can generate or browse through 5 colour palette combinations through an easy and interactive interface by inputting key words and themes.",
         link: "https://coolors.co/",
         type_category: ["other"],
         price_category: ["free", "subscription-based"]
     },
     {
         id: 8,
-        img: './HTML-graphics/wigglypaint-logo.gif',
+        img: './HTML-graphics/wigglypaint-logo.png',
         title: "Wiggly Paint",
         desc: "Experimental drawing program with 8 unique brushes for creating doodles and illustration with a animated 'wiggly' effect with interactive sound effects. Please note that this application was stolen from the original creator Internet Janitor on itch.io, and any 'official' websites are stolen versions that support AI.",
         link: "https://internet-janitor.itch.io/wigglypaint",
@@ -128,7 +128,7 @@ const products = [
     {
         id: 15,
         title: "Quickposes",
-        desc: "Quickposes is a free online tool that helps artists improve in their gigurative gesture drawing skills. It works by displaying a reference (often nude) of a pose or image for a timed interval using automatic rotation, providing video tutorials from professional artists for those who are new to practising croquis as well.",
+        desc: "Quickposes is a free online tool that helps artists improve in their figurative gesture drawing skills. It works by displaying a reference (often nude) of a pose or image for a timed interval using automatic rotation, providing video tutorials from professional artists for those who are new to practising croquis as well.",
         img: './HTML-graphics/quickposes-logo.png',
         link: "https://quickposes.com/en",
         type_category: ["croquis-reference"],
@@ -155,7 +155,7 @@ const products = [
     {
         id: 18,
         title: "Just Sketch Me",
-        desc: "3D reference modelling application with vast gallery of models, props and premade poses with lighting and scene tools.",
+        desc: "Just Sketch Me is a 3D reference modelling application with vast gallery of models, props and premade poses with lighting and scene tools. It is advantageous for its ability to precisely pose every model by allowing for detailed controls of bodyjoints and fingers.",
         img: './HTML-graphics/justsketchme-logo.jpg',
         link: "https://justsketch.me/",
         type_category: ["croquis-reference"],
@@ -164,7 +164,7 @@ const products = [
     {
         id: 19,
         title: "Skelly",
-        desc: "3D interactive model of skeleton that is fully poseable with a rotatable camera with variable lighting sources.",
+        desc: "3D interactive model of skeleton that is fully poseable created by popular artist instructure Stan Prokopenko (@Proko). Features a rotatable camera with variable lighting sources and is anatomically accurate with a skull that is designed to suit and Andrew Loomis-style head construction..",
         img: './HTML-graphics/skelly-logo.png',
         link: "https://www.proko.com/skellyapp",
         type_category: ["croquis-reference"],
@@ -191,7 +191,7 @@ const products = [
     {
         id: 22,
         title: "Posemyart",
-        desc: "",
+        desc: "A free online reference making tool that allows users to create 3D model references by freely posing a model from Posemyart's vast library of premade models, animations and poses to create dynamic and specific scenes and poses.",
         img: './HTML-graphics/posemyart-logo.png',
         link: "https://posemy.art/app/",
         type_category: ["croquis-reference"],
@@ -209,7 +209,7 @@ const products = [
     {
         id: 24,
         title: "Toyhouse",
-        desc: "Toyhouse is a commissions ",
+        desc: "Toyhouse is a private invite-only commissions hub where artists can organise and trade their original characters. It is unique in that it's made specifically for selling original characters rather than commissions, where 'adoptables' can be traded, sold and bought. Toyhouse additionally adds a custom watermark to your artworks to prevent art theft on the website.",
         img: './HTML-graphics/toyhouse-logo.webp',
         link: "https://toyhou.se/",
         type_category: ["commissions"],
