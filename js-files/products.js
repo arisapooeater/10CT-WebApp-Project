@@ -1,12 +1,16 @@
+// This Javascript file was made based on guidance from the following basic product catalogue making tutorial: https://www.youtube.com/watch?v=HmXU2-7lYfo&list=PLhpxwROmcMKqOl3D9Frbd4cNEuvcaJVVz&index=16
+
+
+//This products list was based of the Youtube tutorial but data types were modified to be arrays to integrate with my multi-selection filters
 const products = [
     {
         id: 1,
-        img: './HTML-graphics/procreate-logo.png',
+        img: './HTML-graphics/procreate-logo.png', // Logo of application
         title: "Procreate",
         desc: "Digital illustration app with +300 library of in-built brushes with robust layering, blend modes and filter effects. Widely regarded as the most popular and used drawing app due to its simple interface and extensive features.",
         link: "https://procreate.com/",
-        type_category: ["drawing", "animation"],
-        price_category: ["one-time-payment"]
+        type_category: ["drawing", "animation"], // Type of product is an array as it can have multiple uses
+        price_category: ["one-time-payment"] // Price of product is an array as it can have multiple payment plans
     },
     {
         id: 2,
@@ -14,7 +18,7 @@ const products = [
         title: "Clip Studio Paint",
         desc: "Professional-grade illustration, animation and design app with 3D modelling, vector layering, collaboration, comic-making capabilities with inbuilt premade effects, graphics and reference tools.",
         link: "https://www.clipstudio.net/en/",
-        type_category: ["drawing", "animation"],
+        type_category: ["drawing", "animation"], 
         price_category: ["one-time-payment", "subscription-based"]
     },
     {
@@ -397,12 +401,13 @@ const products = [
     },
 ]
 
-const grid = document.querySelector('.grid')
+
+// This code was originally made using the tutorial link from above but was heavily modified to acommodate two multi-select filters that work simultaneously, instead of a one single-selection filter 
 
 const renderProds = (arr) => {
     grid.innerHTML = "";
 
-    arr.forEach(prod => {
+    arr.forEach(prod => {  // Formats how each product is displayed in HTML -- removes the need for writing all the products in the .html file
         grid.innerHTML += `
             <div class="card" data-id="${prod.id}">
                 <img src="${prod.img}" alt="Procreate" loading="lazy">
@@ -415,28 +420,28 @@ const renderProds = (arr) => {
     })
 }
 
-renderProds(products)
+renderProds(products) // Loop through all products in product list and dynamically generate elements using formatting from above
 
-const priceSelect = document.querySelector("#priceFilter");
-const typeSelect = document.querySelector("#typeFilter");
+const priceSelect = document.querySelector("#priceFilter"); // Finds matching element in HTML for priceFilter
+const typeSelect = document.querySelector("#typeFilter"); // Finds matching element in HTML for typeFilter
 
 
 function filterProducts() {
-    const selectedPrice = Array.from(priceSelect.selectedOptions).map(option => option.value);
-    const selectedType = Array.from(typeSelect.selectedOptions).map(option => option.value);
+    const selectedPrice = Array.from(priceSelect.selectedOptions).map(option => option.value); // selectedPrice is an array of all the selected option values that the user has picked in the price filter
+    const selectedType = Array.from(typeSelect.selectedOptions).map(option => option.value); // selectedType is an array of all the selected option values that the user has picked in the type filter
 
     let filteredProducts;
 
-
+    // Stack overflow was used to identify the issue with the below 3 lines -- It was identified that x.some(option => y.includes(option)) would need to be used instead of just x.includes() due to manipulating an array within an array (the x_category + selectedY values).
     filteredProducts = products.filter(prod => {
-        const priceMatch = selectedPrice.length === 0 || selectedPrice.some(option => prod.price_category.includes(option));
-        const typeMatch = selectedType.length === 0 || selectedType.some(option => prod.type_category.includes(option));
+        const priceMatch = selectedPrice.length === 0 || selectedPrice.some(option => prod.price_category.includes(option)); // If there is anything selected in the price multiselect filter, then any filter options that are in price_category that match the selectedPrice values is put inside priceMatch 
+        const typeMatch = selectedType.length === 0 || selectedType.some(option => prod.type_category.includes(option)); // If there is anything selected in the type multiselect filter, then any filter options that are in type_category that match the selectedType values is put inside typeMatch 
         
-        return priceMatch && typeMatch
+        return priceMatch && typeMatch // filteredProducts returns all products inside products list that match both the priceMatch AND the typeMatch
     });
 
-    renderProds(filteredProducts);
+    renderProds(filteredProducts); // Loop through all products in filteredProducts list and dynamically generate elements that elements 
 }
 
-priceSelect.addEventListener('change', filterProducts)
-typeSelect.addEventListener('change', filterProducts)
+priceSelect.addEventListener('change', filterProducts) // Program runs through function filterProducts() when it detects a change in value in priceSelect (essentially when the user selects sth)
+typeSelect.addEventListener('change', filterProducts) // Program runs through function filterProducts() when it detects a chenge in value in typeSelect (essentially when the user selects sth)

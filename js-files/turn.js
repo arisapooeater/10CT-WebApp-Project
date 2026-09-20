@@ -1,3 +1,5 @@
+// This is a premade Javascript file from the Book Flipping Effect tutorial: https://www.youtube.com/watch?v=HFnzWoGe0so&list=PLhpxwROmcMKqOl3D9Frbd4cNEuvcaJVVz&index=11
+
 /* turn.js 4.1.0 | Copyright (c) 2012 Emmanuel Garcia | turnjs.com | turnjs.com/license.txt */
 
 (function (f) {

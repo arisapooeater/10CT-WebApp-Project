@@ -1,3 +1,5 @@
+// This is a premade Javascript file from the navigation bar tutorial that allows for the navigation bar to be loaded in each html file through a placeholder. From the following tutorial: https://www.youtube.com/watch?v=G4LYPf8isVg&list=PLhpxwROmcMKqOl3D9Frbd4cNEuvcaJVVz&index=9
+
 fetch("navbar.html")
     .then(response => {
         if (!response.ok) {

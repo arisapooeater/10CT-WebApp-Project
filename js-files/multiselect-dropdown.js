@@ -1,3 +1,6 @@
+// This is a premade Javascript file from the Multi-selection tutorial: https://www.youtube.com/watch?v=fZgGc9XoZ6U 
+// Slight modifications were made only in the style of the HTML (colour, font-size, border etc.)
+
 var style = document.createElement('style');
 style.setAttribute("id","multiselect_dropdown_styles");
 style.innerHTML = `

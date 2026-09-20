@@ -1,3 +1,5 @@
+/*Premade Javascript for Book Flipping Effect mported from offical Jquery website: https://jquery.com/*/
+
 /*! jQuery v3.7.1 | (c) OpenJS Foundation and other contributors | jquery.org/license */
 !(function (e, t) {
   "use strict";

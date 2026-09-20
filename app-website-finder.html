@@ -5,23 +5,23 @@
       <meta name="viewport"
       content="width=device-width,
       initial-scale=1.0">
-    <link rel="stylesheet" href="./css-files/style.css">
-    <link rel="stylesheet" href="./css-files/catalogue-filter.css">
-    <script src="./js-files/script.js" defer></script>
-    <script src="./js-files/products.js" defer></script>
-    <script src="./js-files/multiselect-dropdown.js"></script>
+    <link rel="stylesheet" href="./css-files/style.css"> <!-- Links external CSS stylesheet called style.css to webpage -->
+    <link rel="stylesheet" href="./css-files/catalogue-filter.css"> <!-- Links external CSS stylesheet called catalogue-filter.css to webpage -->
+    <script src="./js-files/script.js" defer></script> <!--Links external Javascript library called script.js to webpage-->
+    <script src="./js-files/products.js" defer></script> <!--Links external Javascript library called products.js to webpage-->
+    <script src="./js-files/multiselect-dropdown.js"></script> <!--Links external Javascript library called multiselect-dropdown.js to webpage-->
     <title>KRAFTY</title>
-    <link rel="icon" href="./HTML-graphics/KRAFTY_logo.png">
+    <link rel="icon" href="./HTML-graphics/KRAFTY_logo.png"> <!--Make logo image and title of website KRAFTY on search engine tab-->
   </head>
-  <body class="margin-page">
-    <div id="nav-placeholder"></div>
+  <body class="margin-page"> <!--Created just so there is a margin between the heading and navigation bar-->
+    <div id="nav-placeholder"></div> <!--Create placeholder for navigation bar (navbar.html) to replace -->
     <h2>App & Website Finder</h2>
 
     <!-- App/Websites Filters + Grid -->
-    <section class="Apps/Websites Container" id="product">
-        <div class="filters">
+    <section class="Apps/Websites Container" id="product"> 
+        <div class="filters"> 
             <label for="priceFilter">Price:  </label>
-            <select id="priceFilter" name="select" multiple>
+            <select id="priceFilter" name="select" multiple> <!--Multiple selection filters were created with premade Javascript, that was modified to this project, from the following tutorial: https://www.youtube.com/watch?v=fZgGc9XoZ6U-->
               <option value="free" selected>Free</option>
               <option value="one-time-payment" selected>One-time payment</option>
               <option value="subscription-based" selected>Subscription-based</option>
@@ -29,7 +29,7 @@
         </div>
         <div class="filters">
             <label for="typeFilter">Purpose:  </label>
-            <select id="typeFilter" name="select" multiple>
+            <select id="typeFilter" name="select" multiple>  <!--Multiple selection filters were created with premade Javascript, that was modified to this project, from the following tutorial: https://www.youtube.com/watch?v=fZgGc9XoZ6U-->
                 <option value="drawing" selected>Drawing</option>
                 <option value="animation" selected>Animation</option>
                 <option value="croquis-reference" selected>Croquis/reference</option>
@@ -41,8 +41,8 @@
         </div>
         
         
-        <div class="grid">
-      
+        <div class="grid"> <!--Empty grid for all the products to go into (done through class="grid")-->
+
         </div>
     </section>
   </body>

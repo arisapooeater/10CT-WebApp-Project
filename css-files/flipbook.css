@@ -1,3 +1,6 @@
+/*This CSS file was made with assistance from the Book Flipping Effect Tutorial: https://www.youtube.com/watch?v=HFnzWoGe0so&list=PLhpxwROmcMKqOl3D9Frbd4cNEuvcaJVVz&index=11*/
+/*The style of the flipbook was heavily modified to be suitable for my project (eg. place behind navbar, adjust sizing, colouring, centering etc.)*/
+
 .flipbook-container {
     display: block;
     place-content: center;

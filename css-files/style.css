@@ -1,4 +1,4 @@
-/*Importing custom font*/
+/*Importing custom font. Done with reference to W3Schools webpage: https://www.w3schools.com/css/css3_fonts.asp*/
 @font-face {
   font-family: Hatchway;
   src: url(../HTML-graphics/hatchway.ttf)
@@ -177,7 +177,7 @@ hr {
   display: inline-block;
 }
 
-/*Underline animation*/
+/*Underline animation was created and slightly adjusted in terms of apearance using guidance from the Navigation bar tutorial: https://www.youtube.com/watch?v=G4LYPf8isVg&list=PLhpxwROmcMKqOl3D9Frbd4cNEuvcaJVVz&index=9*/
 .nav__menu ul li a:after {
   content: "";
   position: absolute;
