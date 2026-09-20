@@ -403,6 +403,7 @@ const products = [
 
 
 // This code was originally made using the tutorial link from above but was heavily modified to acommodate two multi-select filters that work simultaneously, instead of a one single-selection filter 
+const grid = document.querySelector('.grid')
 
 const renderProds = (arr) => {
     grid.innerHTML = "";
