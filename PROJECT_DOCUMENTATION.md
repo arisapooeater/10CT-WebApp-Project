@@ -54,11 +54,10 @@ This peer SWOT analysis has provided me insightful opinions into my websites and
 
 ### Secondary Research
 
+The modern expansion of technology and the internet has consequently affected how art is created through the rise of mediums like digital art, animation and mixed media. Digital art, for one, has enabled artists globally to create illustrations that closely mirror traditional art forms in an accessible way that can experimented with easily. According to "Use of Digital Technologies in the Process of Teaching Art Education to Students: A Mixed Methods Study" on ResearchGate, digital technologies has caused a crucial change specifically in art education where the use of online platforms providing tutorials, virtual lectures and projects have extended the accessibilty of art education to artists from diverse backgrounds and regions. Similarly, a different form of digital art technologies, such as 3D images, virtual reality, computer graphics techniques and digital illustration software such as Pinterest, Blender and Procreate is said to have also amplified the domain of art creation as both a personal interest and as an industry, in the opinion of London College of Contemporary Arts. Therefore, it can be said that digital art tools and software is incredibly valuable for helping artists on a global scale express themselves through creative media.
 
-https://www.researchgate.net/publication/397175292_Use_of_Digital_Technologies_in_the_Process_of_Teaching_Art_Education_to_Students_A_Mixed_Methods_Study (digital tools for art is important and help create further access and extension of creative media)
-https://www.oii.ox.ac.uk/art-algorithms-new-exhibit-highlights-differences-between-algorithmic-and-human-curation/ (the algorithm limits what we see, black box (makes artists less visible on social media + some art tools are harder to find))
-- Research information using data from at least 2-3 reputable sources.
-- Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
+However, much of what we see online today is largely being affected by online algorithms. Instead of the 1990s emphasis on displaying content by relevance and authority, social platforms and like today utilise algorithmic mechanisms where your data is analysed to curate a feed that is tailored specifically to the content you constantly interact with. Although this has the benefit of personalising users' experiences, several platforms including Instagram have now announced the increasing usage of a "black-box algorithm", where internal decision-making on what is displayed on your feed is kept hidden from users, according to "Art & Algorithms – new exhibit highlights differences between algorithmic and human curation" by Laura Herman, University of Oxford. In terms of art, this is indicative of how the underlying formulas of algorithmic platforms are ill-suited for the display of artistic intention, where the outsourcing of visual culture is causing the reach of artistic expression to be limited and less visible on social media. This engenders an issue for artists growing a presence online or in the industry as  the visibility of their work can become dependent on algorithmic preferences rather than solely on artistic talent, originality and expression. Additionally, the discovery of unique and underground artistic software and tools is also made increasingly difficult as echo chambers and filter bubbles can cause genuinely useful technology to be excluded from user feeds, stunting artistic expression and experimentation.
+
   
 ### Primary Research
 **Survey Quantitative Results (Google Form: https://forms.gle/wXYreeE5BL81M3Rt6)**
@@ -122,9 +121,6 @@ Generate and evaluate alternative designs using website wireframes and webpage s
 | Design 1 (visual, structured) | <img src="./images/wireframe1.png" alt="Design 1 Wireframe" width="500" height="400"> | <img src="./images/storyboard1.png" alt="Design 1 Storyboard" width="250" height="400"> <img src="./images/storyboard1.1.png" alt="Design 1 Storyboard" width="500" height="400">|
 | Design 2 (game-like, interactive) | <img src="./images/wireframe2.png" alt="Design 2 Wireframe" width="250" height="400"> | <img src="./images/storyboard2.png" alt="Design 2 Storyboard" width="500" height="400"> | 
 | Design 3 (similar to design 1, more standard) | <img src="./images/wireframe3.png" alt="Design 3 Wireframe" width="800" height="400"> | <img src="./images/storyboard3.png" alt="Design 3 Storyboard" width="500" height="400"> |
-
-
-
 
 
 ### Prototype
