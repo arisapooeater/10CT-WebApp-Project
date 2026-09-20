@@ -4,6 +4,11 @@
   src: url(../HTML-graphics/hatchway.ttf)
 }
 
+/* Create a simple fade transition effect between webpages*/
+@view-transition {
+  navigation: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
